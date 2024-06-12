@@ -3,7 +3,7 @@
 }
 
 
-.row-Container{
+.row-container{
     display: flex;
     max-width: 1200px;
     width: 100%;
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
 }
 
-.cta-Button{
+.cta-button{
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
@@ -48,7 +48,7 @@
     transition: background-color 0.3s;
 }
 
-.cta-Button:hover {
+.cta-button:hover {
     background-color: #0056b3;
 }
 
