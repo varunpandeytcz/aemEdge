@@ -1,4 +1,4 @@
-export default function decorate(block) { 
+export default function decorate(block) {
     [...block.children].forEach((row,r)=>{
         row.classList.add("rowContainer");
             [...row.children].forEach((div,d)=>{
@@ -16,7 +16,7 @@ export default function decorate(block) {
                     var ctaImg = div.querySelector("picture");
                     ctaImg.classList.add("ctaImg");
                 }
-                
+
             });
     });
 }
