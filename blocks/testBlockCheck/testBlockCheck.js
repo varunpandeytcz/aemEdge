@@ -10,12 +10,11 @@ export default function decorate(block) {
         const regex = /\$([^$]+)\$/g;
         const editedText = innerText.replace(regex, '<span class="highlight">$1</span>');
         ctaText.innerHTML = editedText;
-        }
-      else if (d === 1) {
+      } else if (d === 1) {
         div.classList.add('column2');
-        let ctaImg = div.querySelector('picture');
+        const ctaImg = div.querySelector('picture');
         ctaImg.classList.add('ctaImg');
-        }
+      }
 
     });
   });
