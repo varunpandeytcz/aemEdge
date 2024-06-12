@@ -4,15 +4,15 @@ export default function decorate(block) {
     [...row.children].forEach((div, d) => {
       if (d === 0) {
         div.classList.add('column1');
-        const cta-Text = div.querySelector('p');
-        cta-Text.classList.add('cta-Text');
+        const ctaText = div.querySelector('p');
+        ctaText.classList.add('cta-Text');
         const innerText = ctaText.innerHTML;
         const regex = /\$([^$]+)\$/g;
         const editedText = innerText.replace(regex, '<span class="highlight">$1</span>');
         ctaText.innerHTML = editedText;
       } else if (d === 1) {
         div.classList.add('column2');
-        const cta-Img = div.querySelector('picture');
+        const ctaImg = div.querySelector('picture');
         ctaImg.classList.add('cta-Img');
       }
     });
