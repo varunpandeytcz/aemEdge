@@ -15,7 +15,6 @@ export default function decorate(block) {
         const ctaImg = div.querySelector('picture');
         ctaImg.classList.add('ctaImg');
       }
-
     });
   });
 }
