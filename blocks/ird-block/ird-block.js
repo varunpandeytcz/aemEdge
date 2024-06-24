@@ -1,5 +1,4 @@
 export default function decorate(block) {
-
   [...block.children].forEach((row, r) => {
     // Adding Classes to All <div> tags under main tag
     row.classList.add('ird-container' + (r + 1));
