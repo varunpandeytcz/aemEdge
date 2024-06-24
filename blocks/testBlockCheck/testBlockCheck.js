@@ -12,9 +12,9 @@ export default function decorate(block) {
         ctaText.innerHTML = editedText;
       } else if (d === 1) {
         div.classList.add('column2');
-        const ctaImg = div.querySelector('picture');
-        ctaImg.classList.add('cta-img');
+        (div.querySelector('picture')).classList.add('cta-img');
       }
     });
   });
 }
+

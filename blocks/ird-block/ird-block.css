@@ -1,0 +1,196 @@
+body {
+    font-family: Work Snas, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.hide{
+    display: none;
+}
+
+table{
+    text-decoration: none;
+}
+
+.ird-block {
+    /* max-width: 1000px; */
+    background-color: #f0f6e4;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ird-container1 h1 {
+    margin: 0;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.ird-container2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+}
+.ird-main-heading h2{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.card-data-highlight{
+font-size: 40px;
+line-height: 55px;
+
+}
+
+.cta-text {
+    font-size: 10px;
+
+}
+
+.card-info {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.card-info h3{
+font-size: 32px;
+}
+
+.card-info p {
+    font-size: 12px;
+    margin: 0;
+
+}
+
+
+
+.card-data {
+    flex: 0.7;
+    padding: 10px;
+    background-color: #8cb133;
+    border-radius: 8px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    padding-top: 35px;
+
+}
+
+
+/* ird-container3 CSS Starts */
+
+.ird-container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.slide-section{
+    border-radius: 5px
+}
+
+.slide-top-heading{
+    background-color: #f0f6e4;
+    border-radius: 5px;
+}
+
+.slide-top-buttons{
+    text-align: left;
+    padding: 6px 10px 10px 10px;
+
+}
+
+.slide-top-buttons a:hover {
+    text-decoration: none;
+}
+
+.slide-heading-button{
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #3cb8ff;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.slide-heading-dropdown{
+    text-align: right;
+    padding: 6px 10px 10px 10px;
+}
+
+#nationality-dropdown{
+    padding: 8px 12px;
+    border: 0px;
+}
+
+/* Slides CSS */
+
+.check-td{
+    padding: 10px;
+}
+
+
+.slide-heading{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.slide-para{
+    font-size: 16px;
+    text-align: left;
+}
+
+.check-td ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.check-td li {
+    flex: 45%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.button-container{
+    text-align: left;
+    font-size: 14px;
+}
+
+.slide-cta-button{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid;
+    border-color: #3cb8ff !important;
+    padding: 5px 30px;
+    text-align: left;
+    cursor: pointer;
+    margin: 16px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px !important;
+}
