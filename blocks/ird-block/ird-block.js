@@ -1,7 +1,8 @@
 export default function decorate(block) {
   [...block.children].forEach((row, r) => {
     // Adding Classes to All <div> tags under main tag
-    row.classList.add('ird-container' + (r+1));
+    const runnner = r + 1;
+    row.classList.add('ird-container' + runner);
 
     // Adding Classes into 1st <div>
     if (r === 0) {
