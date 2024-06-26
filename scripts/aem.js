@@ -723,7 +723,7 @@ function delayedFunction() {
     // Get all content divs
     const divs = document.querySelectorAll('.slide-data');
     // Iterate over divs and set display style
-    divs.forEach(div => {
+    divs.forEach((div) => {
       if (div.id === divId) {
         div.style.display = 'block'; // Show the selected div
       } else {
