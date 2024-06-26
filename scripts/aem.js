@@ -717,6 +717,27 @@ async function loadFooter(footer) {
   return loadBlock(footerBlock);
 }
 
+// IRD Block Custom Code Starts
+function delayedFunction() {
+  function showDiv(divId) {
+    // Get all content divs
+    const divs = document.querySelectorAll('.slide-data');
+    // Iterate over divs and set display style
+    divs.forEach(div => {
+        if (div.id === divId) {
+            div.style.display = 'block'; // Show the selected div
+        } else {
+            div.style.display = 'none'; // Hide all other divs
+        }
+    });
+  }
+    // Add event listeners to buttons
+  document.getElementById('slide-heading-button1').addEventListener('click', () => showDiv('slide1'));
+  document.getElementById('slide-heading-button2').addEventListener('click', () => showDiv('slide2'));
+  document.getElementById('slide-heading-button3').addEventListener('click', () => showDiv('slide3'));
+  }
+  // IRD Block Custom Code Ends
+
 /**
  * Load LCP block and/or wait for LCP in default content.
  * @param {Array} lcpBlocks Array of blocks
@@ -738,11 +759,8 @@ async function waitForLCP(lcpBlocks) {
       resolve();
     }
   });
-
 // IRD Block Custom Code Starts
-   window.addEventListener('load', () => {
-    console.log("active");
-    // Set a delay of 2000 milliseconds (2 seconds)
+  window.addEventListener('load', () => {
     setTimeout(delayedFunction, 2000);
   });
   // IRD Block Custom Code Ends
@@ -777,27 +795,3 @@ export {
   wrapTextNodes,
 };
 
-
-
-// IRD Block Custom Code Starts
-
-function delayedFunction() {
-  function showDiv(divId) {
-    // Get all content divs
-    const divs = document.querySelectorAll('.slide-data');
-    // Iterate over divs and set display style
-    divs.forEach(div => {
-        if (div.id === divId) {
-            div.style.display = 'block'; // Show the selected div
-        } else {
-            div.style.display = 'none'; // Hide all other divs
-        }
-    });
-  }
-    // Add event listeners to buttons
-  document.getElementById('slide-heading-button1').addEventListener('click', () => showDiv('slide1'));
-  document.getElementById('slide-heading-button2').addEventListener('click', () => showDiv('slide2'));
-  document.getElementById('slide-heading-button3').addEventListener('click', () => showDiv('slide3'));
-  }
-
-  // IRD Block Custom Code Ends
