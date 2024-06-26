@@ -67,7 +67,7 @@ export default function decorate(block) {
           } else {
             tr.classList.add('slide-data');
             tr.setAttribute('id', 'slide'.concat(index));
-            if (index !== 1){
+            if (index !== 1) {
               tr.classList.add('hide');
             }
           }
