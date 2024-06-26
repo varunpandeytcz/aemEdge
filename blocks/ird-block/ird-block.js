@@ -70,8 +70,8 @@ export default function decorate(block) {
               tr.classList.add('hide');
             }
           }
-          if (index != 0) {
-            [...tr.children].forEach((td, ti) => {
+          if (index !== 0) {
+            [...tr.children].forEach((td) => {
               td.classList.add('check-td');
               (td.querySelector('h3')).classList.add('slide-heading');
               // (td.querySelectorAll('p')).classList.add('slide-para');
