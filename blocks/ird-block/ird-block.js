@@ -46,7 +46,7 @@ export default function decorate(block) {
               [...td.children].forEach((a, ai) => {
                 a.classList.add('slide-heading-button');
                 a.removeAttribute('href');
-                a.setAttribute('id', 'slide-heading-button' + (ai + 1))
+                a.setAttribute('id', 'slide-heading-button'.concat(ai + 1));
               });
               // Adding Select Element and Converting <p> tag to Select Options
               if (ti === 1) {
@@ -66,8 +66,8 @@ export default function decorate(block) {
             });
           } else {
             tr.classList.add('slide-data');
-            tr.setAttribute('id','slide'+ index);
-            if (index != 1){
+            tr.setAttribute('id', 'slide'.concat(index));
+            if (index !== 1){
               tr.classList.add('hide');
             }
           }
