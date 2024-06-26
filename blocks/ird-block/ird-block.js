@@ -3,7 +3,7 @@ export default function decorate(block) {
     // Adding Classes to All <div> tags under main tag
     // const runner = r + 1;
     // row.classList.add('ird-container' + runner);
-    row.classList.add('ird-container'.concat(r+1));
+    row.classList.add('ird-container'.concat(r + 1));
 
     // Adding Classes into 1st <div>
     if (r === 0) {
