@@ -735,8 +735,8 @@ function delayedFunction() {
   document.getElementById('slide-heading-button1').addEventListener('click', () => showDiv('slide1'));
   document.getElementById('slide-heading-button2').addEventListener('click', () => showDiv('slide2'));
   document.getElementById('slide-heading-button3').addEventListener('click', () => showDiv('slide3'));
-  }
-  // IRD Block Custom Code Ends
+}
+// IRD Block Custom Code Ends
 
 /**
  * Load LCP block and/or wait for LCP in default content.
@@ -759,7 +759,7 @@ async function waitForLCP(lcpBlocks) {
       resolve();
     }
   });
-// IRD Block Custom Code Starts
+  // IRD Block Custom Code Starts
   window.addEventListener('load', () => {
     setTimeout(delayedFunction, 2000);
   });
@@ -794,4 +794,3 @@ export {
   waitForLCP,
   wrapTextNodes,
 };
-

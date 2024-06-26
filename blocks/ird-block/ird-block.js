@@ -17,7 +17,7 @@ export default function decorate(block) {
           div.classList.add('card-data');
 
           const ctaText = div.querySelectorAll('p');
-          ctaText.forEach(p => {
+          ctaText.forEach((p) => {
             p.classList.add('cta-text');
             const innerText = p.innerHTML;
             const regex = /\$([^$]+)\$/g;
@@ -29,7 +29,7 @@ export default function decorate(block) {
     }
     // Adding Classes into 3rd <div>
     if (r === 2) {
-      [...row.children].forEach((div, d) => {
+      [...row.children].forEach((div) => {
         div.classList.add('slide-section');
         // Adding Classes to <tr> tags under <div>
         const trElements = div.querySelectorAll('tr');
@@ -54,7 +54,7 @@ export default function decorate(block) {
                 td.innerHTML += '<tr><select name="nationality" id="nationality-dropdown"></tr>';
                 const pElements = td.querySelectorAll('p');
                 const selectElement = td.querySelector('select');
-                pElements.forEach(p => {
+                pElements.forEach((p) => {
                   const option = document.createElement('option');
                   option.value = p.textContent;
                   option.textContent = p.textContent;
