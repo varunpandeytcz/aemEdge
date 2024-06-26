@@ -1,8 +1,9 @@
 export default function decorate(block) {
   [...block.children].forEach((row, r) => {
     // Adding Classes to All <div> tags under main tag
-    const runner = r + 1;
-    row.classList.add('ird-container' + runner);
+    // const runner = r + 1;
+    // row.classList.add('ird-container' + runner);
+    row.classList.add('ird-container'.concat(r+1));
 
     // Adding Classes into 1st <div>
     if (r === 0) {
@@ -47,7 +48,8 @@ export default function decorate(block) {
               // Adding Classes to <a> tags under <td>
               [...td.children].forEach((a, ai) => {
                 a.classList.add('slide-heading-button');
-                a.classList.add('slide-heading-button' + (ai + 1));
+                a.removeAttribute('href');
+                a.setAttribute('id', 'slide-heading-button' + (ai + 1))
               });
 
               // Adding Select Element and Converting <p> tag to Select Options
@@ -68,7 +70,12 @@ export default function decorate(block) {
             });
           } else {
             tr.classList.add('slide-data');
-            tr.classList.add('slide-data' + index);
+            tr.setAttribute('id','slide'+ index);
+
+            if (index != 1){
+              tr.classList.add('hide');
+            }
+
           }
 
 
@@ -90,59 +97,57 @@ export default function decorate(block) {
             });
           }
         });
-
+        // slideAction();
       });
-
-      // slideAction();
     }
 
   });
+
+
+
+
+
 }
 
 
 
 
-// function slideAction() {
-//   console.log("active");
-
-//   const slide1 = document.querySelector('slide-data1');
-//   const slide2 = document.querySelector('slide-data2');
-//   const slide3 = document.querySelector('slide-data3');
-
-//   console.log(slide1);
-
-//   const slideButton1 = document.querySelector('.slide-heading-button1');
-//   const slideButton2 = document.querySelector('.slide-heading-button2');
-//   const slideButton3 = document.querySelector('.slide-heading-button3');
-
-//   console.log(slideButton3);
-
-//   // slide1.classList.remove('hide');
-
-//   slideButton1.addEventListener('click', () => {
-//   slide1.classList.remove('hide');
-//   slide2.classList.add('hide');
-//   slide3.classList.add('hide');
-//   });
-
-//   slideButton2.addEventListener('click', () => {
-//   slide1.classList.add('hide');
-//   slide2.classList.remove('hide');
-//   slide3.classList.add('hide');
-//   });
-
-//   slideButton3.addEventListener('click', () => {
-//   slide1.classList.add('hide');
-//   slide2.classList.add('hide');
-//   slide3.classList.remove('hide');
-//   });
-// }
 
 
-// window.addEventListener('DOMContentLoaded', function() {
-
-// const divElement = document.querySelector('.slide-data1');
-// divElement.setAttribute('id', 'newID');
 
 
-// });
+
+function delayedFunction() {
+
+
+
+function showDiv(divId) {
+  // Get all content divs
+  const divs = document.querySelectorAll('.slide-data');
+
+  // Iterate over divs and set display style
+  divs.forEach(div => {
+      if (div.id === divId) {
+          div.style.display = 'block'; // Show the selected div
+      } else {
+          div.style.display = 'none'; // Hide all other divs
+      }
+  });
+}
+
+
+  // Add event listeners to buttons
+document.getElementById('slide-heading-button1').addEventListener('click', () => showDiv('slide1'));
+document.getElementById('slide-heading-button2').addEventListener('click', () => showDiv('slide2'));
+document.getElementById('slide-heading-button3').addEventListener('click', () => showDiv('slide3'));
+
+
+
+}
+
+
+
+
+
+
+
