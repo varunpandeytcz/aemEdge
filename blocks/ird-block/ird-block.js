@@ -24,7 +24,6 @@ export default function decorate(block) {
             const editedText = innerText.replace(regex, '<br><span class="card-data-highlight">$1</span><br>');
             p.innerHTML = editedText;
           });
-
         }
       });
     }
@@ -72,9 +71,7 @@ export default function decorate(block) {
             }
           }
           if (index != 0) {
-
             [...tr.children].forEach((td, ti) => {
-
               td.classList.add('check-td');
               (td.querySelector('h3')).classList.add('slide-heading');
               // (td.querySelectorAll('p')).classList.add('slide-para');

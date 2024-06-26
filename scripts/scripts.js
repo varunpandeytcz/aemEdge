@@ -133,5 +133,3 @@ async function loadPage() {
 }
 
 loadPage();
-
-
