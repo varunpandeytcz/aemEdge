@@ -1,5 +1,5 @@
 body {
-    font-family: Work Snas, sans-serif;
+    font-family: 'Work Snas', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,7 +21,7 @@ table{
     /* max-width: 1000px; */
     background-color: #f0f6e4;
     padding: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
     border-radius: 8px;
     text-align: center;
 }
@@ -39,6 +39,7 @@ table{
         justify-content: space-between;
         margin: 20px 0;
 }
+
 .ird-main-heading h2{
     margin-top: 0.5em;
     margin-bottom: 1em;
@@ -111,7 +112,7 @@ font-size: 32px;
 
 .slide-top-buttons{
     text-align: left;
-    padding: 6px 10px 10px 10px;
+    padding: 6px 10px 10px;
 
 }
 
@@ -132,12 +133,12 @@ font-size: 32px;
 
 .slide-heading-dropdown{
     text-align: right;
-    padding: 6px 10px 10px 10px;
+    padding: 6px 10px 10px;
 }
 
 #nationality-dropdown{
     padding: 8px 12px;
-    border: 0px;
+    border: 0;
 }
 
 /* Slides CSS */
@@ -150,7 +151,7 @@ font-size: 32px;
 .slide-heading{
     font-size: 24px;
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .slide-para{
