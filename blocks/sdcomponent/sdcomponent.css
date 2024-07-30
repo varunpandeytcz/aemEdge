@@ -28,6 +28,15 @@
   width: 280px;
 }
 
+.frst-div h2 {
+  font-family: "Work Sans";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42.23px;
+  text-align: center;
+  color: #3b3b3b;
+}
+
 .second-div .card1 h2,
 .second-div .card2 h2,
 .second-div .card3 h2,
@@ -39,15 +48,6 @@
   text-align: left;
   color: #fff;
   margin-left: 20px;
-}
-
-.frst-div h2 {
-  font-family: "Work Sans";
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 42.23px;
-  text-align: center;
-  color: #3b3b3b;
 }
 
 .first-div p {
@@ -68,7 +68,7 @@
   font-weight: 500;
   line-height: 15.46px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
 }
 
