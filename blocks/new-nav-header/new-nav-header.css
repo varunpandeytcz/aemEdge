@@ -115,6 +115,13 @@
     font-size: 16px;
 }
 
+.header-apply-button a{
+    border: none;
+    background-color: #3cb8ff;
+    border-radius: 5px  !important;
+    font-size: 16px;
+}
+
 .dropdown-left li a {
     text-decoration: none;
     color: #333;
@@ -177,7 +184,7 @@
 
 /* Search Button Icon */
 .header-search-icon::before {
-    background-image: url('../../icons/searchh.png'); /* Replace with your icon */
+    background-image: url('../../icons/searchh.png');
     background-size: contain;
 }
 
@@ -190,13 +197,6 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-.header-apply-button a{
-    border: none;
-    background-color: #3cb8ff;
-    border-radius: 5px  !important;
-    font-size: 16px;
 }
 
 .header-icon-button a.button:hover{
