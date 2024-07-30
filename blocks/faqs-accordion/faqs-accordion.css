@@ -62,6 +62,7 @@
     font-weight: 400;
     line-height: 28px;
     text-align: left;
+    display: none;
 }
 
 .faqs-accordion-answer p {
@@ -69,11 +70,7 @@
 }
 
 .faqs-accordion-item {
-    margin: 10px 0px;
-}
-
-.faqs-accordion-answer {
-    display: none;
+    margin: 10px 0;
 }
 
 .faqs-accordion-answer.show {

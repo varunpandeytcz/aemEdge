@@ -1,6 +1,6 @@
 main .topcomponent-container{
   margin-top: 129px;
-  padding: 0px;
+  padding: 0;
 }
 
 main .topcomponent-wrapper{
@@ -8,7 +8,7 @@ main .topcomponent-wrapper{
 }
 
 main .sdcomponent-container{
-  padding: 0px;
+  padding: 0;
 }
 
 
