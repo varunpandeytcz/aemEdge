@@ -3,9 +3,9 @@ export default function decorate(block) {
     row.classList.add('new-nav-container-'.concat(r + 1));
     row.setAttribute('id', 'new-nav-container-'.concat(r + 1));
     // For First Div
-    if(r === 0) {
+    if (r === 0) {
       [...row.children].forEach((div, d) => {
-        if (d === 0){
+        if (d === 0) {
           div.classList.add('lang-dropdown');
           div.innerHTML += '<tr><select name="nationality" id="nationality-dropdown"></tr>';
           const selectElement = div.querySelector('select');
@@ -18,7 +18,7 @@ export default function decorate(block) {
           p.remove();
           });
         }
-        if (d === 1){
+        if (d === 1) {
           div.classList.add('head-buttons');
           const pElements = div.querySelectorAll('p');
           pElements.forEach((p, pi) => {
@@ -63,7 +63,7 @@ export default function decorate(block) {
         }
         if (d === 1) {
           div.classList.add('dropdown-right');
-          (div.querySelectorAll('ul')).forEach((ul, uli) => {
+          (div.querySelectorAll('ul')).forEach((ul) => {
             ul.classList.add('inline-list');
           });
         }

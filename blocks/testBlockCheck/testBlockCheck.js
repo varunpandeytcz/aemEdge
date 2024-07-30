@@ -8,7 +8,7 @@ export default function decorate(block) {
         ctaText.classList.add('cta-text');
         const innerText = ctaText.innerHTML;
         const regex = /\$([^$]+)\$/g;
-        const editedText = innerText.replace(regex, '<span class="highlight">$1</span>');
+        const editedText = innerText.replace(regex, "<span class='highlight'>$1</span>");
         ctaText.innerHTML = editedText;
       } else if (d === 1) {
         div.classList.add('column2');
