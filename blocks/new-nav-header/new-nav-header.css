@@ -107,13 +107,9 @@
     display: block;
 }
 
-.header-nav-item:hover a {
-    background-color: #f0f0f0;
-}
-
 .header-icon-button a{
     border: none;
-    background-color: rgba(255,255,255,0) !important;
+    background-color: rgba(255 255 255 / 0%) !important;
     border-radius: 5px  !important;
     color: #3B3B3B !important;
     font-size: 16px;
@@ -205,4 +201,8 @@
 
 .header-icon-button a.button:hover{
     background-color: #3cb8ff;
+}
+
+.header-nav-item:hover a {
+    background-color: #f0f0f0;
 }
