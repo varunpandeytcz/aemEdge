@@ -74,8 +74,8 @@
 .fourth-cntnr {
   width: 130px;
   gap: 10px;
-  border-radius: 2px 0px 0px;
-  opacity: 0px;
+  border-radius: 2px 0 0;
+  opacity: 0;
   background: #3cb8ff;
   margin: 0px 0px 30px 50px;
 }
