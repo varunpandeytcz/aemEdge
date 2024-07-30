@@ -1,0 +1,120 @@
+.new-footer {
+  background-color: #F0F6E4;
+  cursor: pointer;
+}
+
+.footer-outrmost {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-outrmost h2 {
+  font-weight: 600 !important;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.footer-outrmost p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.21px;
+  text-align: left;
+}
+
+.footer-outrmost h3 {
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 18.77px;
+  text-align: left;
+}
+
+.footer-main-cntnr ul > li {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-child-one table td {
+  width: 258px;
+}
+
+.footer-main-cntnr {
+  border-left: 1px solid #8CB133;
+  border-right: 1px solid #8CB133;
+  padding: 0 30px;
+  height: 600px;
+}
+
+.footer-main-cntnr ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Hide the list items initially */
+}
+
+.footer-main-cntnr h3 {
+  position: relative;
+}
+
+.footer-main-cntnr h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  right: -20px;
+  background-image: url('Vector.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 4.5px;
+  object-fit: contain;
+  transform: rotate(180deg);
+  transition: 0.9s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.footer-main-cntnr h3.active::after {
+  transform: rotate(360deg);
+}
+
+.footer-main-cntnr h3.active + ul {
+  display: block; /* Show the list items when header is active */
+}
+
+.footer-child-accordin {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-child-second-part,
+.footer-second-outrmost {
+  background-color: #8CB133;
+  color: white;
+}
+
+.footer-second-outrmost div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-second-outrmost div p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.footer-second-outrmost div table td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  padding: 0 5px;
+}

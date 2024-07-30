@@ -1,0 +1,88 @@
+.topcomponent-container{
+  padding: 0;
+  max-width: 100%;
+}
+
+.outer {
+    background-image: url("../../images/topcomponent/bgimg.png");
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 90px;
+    background-repeat: no-repeat;
+  }
+  .first-cntnr {
+    margin: 0px 0px 0px 50px;
+  }
+  .first-cntnr p {
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 2.23px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .first-cntnr h1 {
+    font-family: Work Sans;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 8.6px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .second-cntnr {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .second-cntnr tr ul {
+    display: flex;
+    gap: 50px;
+  }
+  .second-cntnr td {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.77px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .third-cntnr {
+    margin-left: 30px;
+    padding-bottom: 20px;
+  }
+  .third-cntnr tr ul {
+    display: flex;
+    gap: 138px;
+  }
+  .third-cntnr td {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.77px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .fourth-cntnr {
+    width: 130px;
+
+    gap: 10px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: #3cb8ff;
+    margin: 0px 0px 30px 50px;
+  }
+  .fourth-cntnr p {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.42px;
+    text-align: center;
+
+    color: #ffffff;
+    padding: 12px 20px 12px 20px;
+  }
+
+  @media (width >= 900px) {
+    .topcomponent-wrapper {
+        max-width: 1455px;
+    }
+}

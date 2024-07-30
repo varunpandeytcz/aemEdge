@@ -1,0 +1,222 @@
+.new-nav-header-wrapper{
+    max-width: 100%;
+}
+
+/* New Nav Container 1 */
+.new-nav-container-1{
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lang-dropdown select{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.head-buttons{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.head-buttons p{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+.head-buttons a {
+    padding: 2px 16px 2px 5px !important;
+    border: 0 !important;
+    background-color: #F4F4F4 !important;
+    color: #3B3B3B !important;
+}
+
+.button-container::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+}
+
+.head-button-1::before {
+    background-image: url('../../icons/cl-svg.svg'); /* Replace with your icon */
+    background-size: contain;
+}
+
+.head-button-2::before {
+    background-image: url('../../icons/bap-svg.svg'); /* Replace with your icon */
+    background-size: contain;
+}
+
+.head-button-3::before {
+    background-image: url('../../icons/gn-svg.svg'); /* Replace with your icon */
+    background-size: contain;
+}
+
+/* New Nav Container 2 */
+.new-nav-container-2{
+    background-color: #Fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*
+.header-logo picture{
+
+} */
+
+.header-nav-bar{
+    position: relative;
+    font-size: 16px;
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav-item{
+    position: relative;
+}
+
+.header-nav-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+.header-nav-item:hover a {
+    background-color: #f0f0f0;
+}
+
+/* .nav-item:hover .dropdown-content {
+    display: flex;
+} */
+
+
+.new-nav-container-3 {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1;
+}
+
+.dropdown-left, .dropdown-right {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.dropdown-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-left li {
+    margin: 10px 0;
+}
+
+.dropdown-left li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-right h2 {
+    margin: 0;
+}
+
+.dropdown-right p {
+    margin: 10px 0;
+}
+
+.inline-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.inline-list li {
+    display: inline;
+}
+
+/* Actions Container Style */
+.header-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search Button Icon */
+.header-search-icon::before {
+    background-image: url('../../icons/searchh.png'); /* Replace with your icon */
+    background-size: contain;
+}
+
+/* Apply Now Button Style */
+.header-apply-button {
+    /* padding: 10px 20px; */
+    /* background-color: #28a745; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-apply-button a{
+    border: none;
+    background-color: #3cb8ff;
+    border-radius: 5px  !important;
+    font-size: 16px;
+
+}
+
+.header-icon-button a{
+    border: none;
+    background-color: rgba(255,255,255,0) !important;
+    border-radius: 5px  !important;
+    color: #3B3B3B !important;
+    font-size: 16px;
+}
+
+.header-icon-button a.button:hover{
+    background-color: #3cb8ff;
+}
+
+/* .header-apply-button:hover {
+    background-color: #218838;
+} */

@@ -1,0 +1,73 @@
+.row-container {
+    /* margin: 2% 10%; */
+  }
+  .second-div tr {
+    display: flex;
+    gap: 30px;
+  }
+  .second-div .card1 {
+    /* height: 10%; */
+    background-image: url("../../images/sdcomponent/Group1000011550.png");
+    width: 280px;
+  }
+  .second-div .card2 {
+    /* height: 10%; */
+    background-image: url("../../images/sdcomponent/2img.png");
+    width: 280px;
+  }
+  .second-div .card3 {
+    /* height: 10%; */
+    background-image: url("../../images/sdcomponent/3img.png");
+    width: 280px;
+  }
+  .second-div .card4 {
+    /* height: 10%; */
+    background-image: url("../../images/sdcomponent/4img.png");
+    width: 280px;
+  }
+  .second-div .card1 h2,
+  .second-div .card2 h2,
+  .second-div .card3 h2,
+  .second-div .card4 h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 36.3px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+  .second-div .card1 p,
+  .second-div .card2 p,
+  .second-div .card3 p,
+  .second-div .card4 p {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15.46px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  .first-div {
+    text-align: center;
+  }
+  .first-div h2 {
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42.23px;
+    text-align: center;
+
+    color: #3b3b3b;
+  }
+  .first-div p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.77px;
+    text-align: center;
+
+    color: #3b3b3b;
+  }
