@@ -59,9 +59,9 @@
 
 .third-cntnr tr ul {
   display: flex;
-  g
-  ap: 138px;
+  gap: 138px;
 }
+
 .third-cntnr td {
   font-family: Work Sans;
   font-size: 16px;
