@@ -11,19 +11,19 @@ export default function decorate(block) {
           const selectElement = div.querySelector('select');
           const pElements = div.querySelectorAll('p');
           pElements.forEach((p) => {
-          const option = document.createElement('option');
-          option.value = p.textContent;
-          option.textContent = p.textContent;
-          selectElement.appendChild(option);
-          p.remove();
+            const option = document.createElement('option');
+            option.value = p.textContent;
+            option.textContent = p.textContent;
+            selectElement.appendChild(option);
+            p.remove();
           });
         }
         if (d === 1) {
           div.classList.add('head-buttons');
           const pElements = div.querySelectorAll('p');
           pElements.forEach((p, pi) => {
-          p.classList.add('head-button-'.concat(pi + 1));
-          p.setAttribute('id', 'head-button-'.concat(pi + 1));
+            p.classList.add('head-button-'.concat(pi + 1));
+            p.setAttribute('id', 'head-button-'.concat(pi + 1));
           });
         }
       });
