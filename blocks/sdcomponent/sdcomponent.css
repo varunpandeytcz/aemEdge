@@ -29,7 +29,7 @@
 }
 
 .frst-div h2 {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 36px;
   font-weight: bold;
   line-height: 42.23px;
@@ -41,7 +41,7 @@
 .second-div .card2 h2,
 .second-div .card3 h2,
 .second-div .card4 h2 {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 36.3px;
@@ -51,7 +51,7 @@
 }
 
 .first-div p {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 18.77px;
@@ -63,7 +63,7 @@
 .second-div .card2 p,
 .second-div .card3 p,
 .second-div .card4 p {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 15.46px;

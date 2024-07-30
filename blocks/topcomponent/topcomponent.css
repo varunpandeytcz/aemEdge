@@ -16,7 +16,7 @@
 }
 
 .first-cntnr p {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 2.23px;
@@ -25,7 +25,7 @@
 }
 
 .first-cntnr h1 {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 54px;
   font-weight: 600;
   line-height: 8.6px;
@@ -44,7 +44,7 @@
 }
 
 .second-cntnr td {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 2.77px;
@@ -63,7 +63,7 @@
 }
 
 .third-cntnr td {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.77px;
@@ -81,7 +81,7 @@
 }
 
 .fourth-cntnr p {
-  font-family: "Work Sans";
+  font-family: "Work Sans" , sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.42px;
